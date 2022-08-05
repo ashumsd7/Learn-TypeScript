@@ -1,31 +1,30 @@
-// Objects
-
-// every object has object types :
-// attached to  objects not key value pair but : type pair
-
-// ______like this _____
-// const person: {
-//     name: string;
-//     age: number;
-// }
-
-// ______________________
-
-// const person: {
-//   name: string;
-//   age: number;
-// } = {
-//   name: "Lovely",
-//   age: 30,
-// };
-
-
-// ________OR__________
-
+// Arrays types
+// number[]   for array types
 const person = {
     name: "Lovely",
     age: 30,
+    hobbies:['cricket','hockey']
   };
   
+
+
+
+  let favrtSports : string[]
+
+  favrtSports= ['sports','hockey', ]
+
+
+  //any
+
+  let favrtFruits :any[]
+
+  favrtFruits =[1, 'apple', 23]
+
+
+  for (let sport of favrtSports){
+    console.log(sport.toUpperCase());
+  }
+
+
 
 console.log(person.name);
