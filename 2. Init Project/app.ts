@@ -1,25 +1,16 @@
-// Function Types
+// Function as type
+
+
+let add : Function
 
 
 
-// function return type
+let newAddFun : (a:number, b: number)=> number;
 
-function add(n1:number, n2:number) : number{
-    return n1+n2
-}
+// newAddFun is a function that takes a and b as a number and return type is also a number
 
 
-// void return type  ( void is undefined)
 
-
-function printResult( num: number) :void {
-
-    console.log("RESULT IS", num);
-
-}
-
-
-printResult(1)
 
 
 
