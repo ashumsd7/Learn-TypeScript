@@ -1,44 +1,26 @@
-// Type Aliases / Custom Types
-
-
-type myCustomType = number | string
-
-
-let age : myCustomType
+// Function Types
 
 
 
+// function return type
+
+function add(n1:number, n2:number) : number{
+    return n1+n2
+}
 
 
-// ________________COPIED_______________
+// void return type  ( void is undefined)
 
 
-// Type Aliases & Object Types
-// Type aliases can be used to "create" your own types. You're not limited to storing union types though - you can also provide an alias to a (possibly complex) object type.
+function printResult( num: number) :void {
 
-// For example:
+    console.log("RESULT IS", num);
 
-// type User = { name: string; age: number };
-// const u1: User = { name: 'Max', age: 30 }; // this works!
-// This allows you to avoid unnecessary repetition and manage types centrally.
+}
 
-// For example, you can simplify this code:
 
-// function greet(user: { name: string; age: number }) {
-//   console.log('Hi, I am ' + user.name);
-// }
- 
-// function isOlder(user: { name: string; age: number }, checkAge: number) {
-//   return checkAge > user.age;
-// }
-// To:
+printResult(1)
 
-// type User = { name: string; age: number };
- 
-// function greet(user: User) {
-//   console.log('Hi, I am ' + user.name);
-// }
- 
-// function isOlder(user: User, checkAge: number) {
-//   return checkAge > user.age;
-// }
+
+
+
