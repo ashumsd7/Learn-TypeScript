@@ -4,3 +4,14 @@ number            1,5,3, -10
 string             'Hi', "Hi", `Hi`
 boolean             true/false
 
+
+
+
+
+object             {age:30}
+   
+
+
+Arrays                   [1,2,3]
+
+Tuple              

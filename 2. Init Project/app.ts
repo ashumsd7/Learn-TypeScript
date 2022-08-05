@@ -1,30 +1,17 @@
-// Arrays types
-// number[]   for array types
-const person = {
-    name: "Lovely",
-    age: 30,
-    hobbies:['cricket','hockey']
-  };
-  
+// Tuple : fix length array and types
 
 
 
-  let favrtSports : string[]
-
-  favrtSports= ['sports','hockey', ]
-
-
-  //any
-
-  let favrtFruits :any[]
-
-  favrtFruits =[1, 'apple', 23]
-
-
-  for (let sport of favrtSports){
-    console.log(sport.toUpperCase());
-  }
+let myFixedArray : [number,string]  ;
+// we want exactly two elements with number and string 
 
 
 
-console.log(person.name);
+myFixedArray =[1,'as']
+
+console.log(myFixedArray)
+
+
+
+
+
