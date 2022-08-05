@@ -1,17 +1,16 @@
-// Tuple : fix length array and types
+// ENUMS
 
-
-
-let myFixedArray : [number,string]  ;
-// we want exactly two elements with number and string 
-
-
-
-myFixedArray =[1,'as']
-
-console.log(myFixedArray)
+enum Role {ADMIN, READ_ONLY, AUTHOR};
+// behind the scenes it receives 
+        //{  0         1          2}
 
 
 
 
+        let user={
+            role: Role.ADMIN
+        }
 
+if(user.role){
+    console.log("YES IT IS ADMIN");
+}
