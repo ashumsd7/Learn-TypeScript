@@ -1,16 +1,31 @@
-function add(n1: number, n2: number, show: boolean, phrase:string) {
-  console.log(typeof n1);
+// Objects
 
-  let result = n1+n2
+// every object has object types :
+// attached to  objects not key value pair but : type pair
 
-  if (show) {
-    console.log(phrase+  result);
-  }
-  return result;
-}
+// ______like this _____
+// const person: {
+//     name: string;
+//     age: number;
+// }
 
-// const number1= '2';
-const number1 = 4;
-const number2 = 2.9;
+// ______________________
 
-console.log(add(number1, number2, true, "Result is: "));
+// const person: {
+//   name: string;
+//   age: number;
+// } = {
+//   name: "Lovely",
+//   age: 30,
+// };
+
+
+// ________OR__________
+
+const person = {
+    name: "Lovely",
+    age: 30,
+  };
+  
+
+console.log(person.name);

@@ -1,12 +1,14 @@
-function add(n1, n2, show, phrase) {
-    console.log(typeof n1);
-    var result = n1 + n2;
-    if (show) {
-        console.log(phrase + result);
-    }
-    return result;
-}
-// const number1= '2';
-var number1 = 4;
-var number2 = 2.9;
-console.log(add(number1, number2, true, "Result is: "));
+// Objects
+// every object has object types :
+// attached to  objects not key value pair but : type pair 
+// ______like this _____
+// const person: {
+//     name: string;
+//     age: number;
+// }
+// ______________________
+var person = {
+    name: 'Lovely',
+    age: 30
+};
+console.log(person.name);
