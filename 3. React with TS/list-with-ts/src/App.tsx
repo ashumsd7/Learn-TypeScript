@@ -8,7 +8,7 @@ function App() {
       <div className="h-screen bg-gray-200">
         
 
-        <Customer name='React'/>
+        <Customer name='React' age={34} title='By Facebook'/>
 
 
       </div>

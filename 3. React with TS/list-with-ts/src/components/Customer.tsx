@@ -7,7 +7,17 @@ interface IProps {
 }
 
 const Customer: React.FC<IProps> = ({ name, age, title }: IProps) => {
-  return <div>Customer</div>;
+  return (
+    <>
+      <div className="flex flex-col w-1/2 gap-2 p-2 font-semibold bg-white border rounded-md shadow-md">
+        <div>Title: {title}</div>
+
+        <div>Name : {name}</div>
+
+        <div>Age: {age}</div>
+      </div>
+    </>
+  );
 };
 
 export default Customer;
